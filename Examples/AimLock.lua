@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Load.lua"))()("Module")
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/libaan151/Aiming/main/Load.lua"))()("Module")
 
 -- // Services
 local UserInputService = game:GetService("UserInputService")
@@ -11,7 +11,7 @@ local AimingChecks = Aiming.Checks
 
 Aiming.AimLock = {
     Enabled = true,
-    Keybind = Enum.UserInputType.MouseButton2, -- // You can also have Enum.KeyCode.E, etc.
+    Keybind = Enum.UserInputType.E, -- // You can also have Enum.KeyCode.E, etc.
 }
 local Settings = Aiming.AimLock
 
