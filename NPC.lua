@@ -2,7 +2,7 @@ if getgenv().AimingNPC then return getgenv().AimingNPC end
 
 -- // Dependencies
 local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/BeizerManager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/libaan151/z/main/z"))()
 
 -- // Services
 local Players = game:GetService("Players")
